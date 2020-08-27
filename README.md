@@ -2,6 +2,11 @@
 
 0 dependencies react hooks to get the season based on the browser geo location api.
 
+## Installation :
+```bash
+  npm install use-season
+```
+
 ## Usage : 
 ```jsx
 import React from 'react';
