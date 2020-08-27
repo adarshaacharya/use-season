@@ -8,14 +8,14 @@ type IValues = {
 };
 
 /**
- * Hooks to find the weather based on the geo location using browser API.
+ * Hooks to find the season based on the geo location using browser API.
  *
- * @returns season, latitude, loading, error(if present) & fetchWeather function
+ * @returns season, latitude, loading, error(if present) & fetchSeason function
  *
  * @version 1.0.0
  * @see https://www.npmjs.com/~adarshaacharya
  */
-const useGeoLocation = () => {
+const useSeason = () => {
   const initialVal: IValues = {
     latitude: null,
     season: null,
@@ -30,7 +30,7 @@ const useGeoLocation = () => {
     else return latitude > 0 ? 'Winter' : 'Summer';
   };
 
-  const fetchWeather = () => {
+  const fetchSeason = () => {
     setState({
       ...state,
       loading: true,
@@ -60,8 +60,8 @@ const useGeoLocation = () => {
 
   return {
     ...state,
-    fetchWeather,
+    fetchSeason,
   };
 };
 
-export default useGeoLocation;
+export default useSeason;

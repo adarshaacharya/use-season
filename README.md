@@ -1,20 +1,20 @@
-# use-geo-location
+# use-season
 
 0 dependencies react hooks to get the season based on the browser geo location api.
 
-Usage : 
+## Usage : 
 ```jsx
 import React from 'react';
-import useGeoLocation from './use-geo-location';
+import useSeason from './use-season';
 
 function App() {
-  const { error, loading, season, fetchWeather } = useGeoLocation();
+  const { error, loading, season, fetchSeason } = useSeason();
   if (loading) return <p>loading...</p>;
   return (
     <>
       {error && !season && error}
       {season && !error && season}
-      <button onClick={fetch}> Click me </button>
+      <button onClick={fetchSeason}> Click me </button>
     </>
   );
 }
