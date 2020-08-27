@@ -5,7 +5,7 @@
 ## Usage : 
 ```jsx
 import React from 'react';
-import useSeason from './use-season';
+import useSeason from 'use-season';
 
 function App() {
   const { error, loading, season, fetchSeason } = useSeason();
@@ -23,5 +23,8 @@ export default App;
 
 ```
 
-Note : 
+### Note : 
 This package is based on the browser Geolocation API so, browser will ask you to use your location in that case you must click Allow else it won't work.
+
+### Demo
+[Check it out !](https://codesandbox.io/s/use-season-example-1zp6z)
