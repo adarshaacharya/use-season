@@ -21,7 +21,7 @@ function App() {
 
 export default App;
 
-
-
-
 ```
+
+Note : 
+This package is based on the browser Geolocation API so, browser will ask you to use your location in that case you must click Allow else it won't work.

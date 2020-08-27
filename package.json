@@ -1,11 +1,11 @@
 {
-  "name": "use-geo-location",
+  "name": "use-season",
   "version": "1.0.0",
   "description": "React hooks to get the season based on the geo location browser api.",
   "main": "index.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adarshaacharya/use-geo-location.git"
+    "url": "git+https://github.com/adarshaacharya/use-season.git"
   },
   "keywords": [
     "react",
@@ -15,9 +15,9 @@
   "author": "Aadarsha Acharya<adarshaofficial@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adarshaacharya/use-geo-location/issues"
+    "url": "https://github.com/adarshaacharya/use-season/issues"
   },
-  "homepage": "https://github.com/adarshaacharya/use-geo-location#readme",
+  "homepage": "https://github.com/adarshaacharya/use-season#readme",
   "peerDependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
